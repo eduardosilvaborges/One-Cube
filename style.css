@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #cacaca;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+
+  background: no-repeat url("imgs/Background.png");
+  position: relative;
+}
+
+.gradienteTop {
+  background: linear-gradient(
+      156deg,
+      rgba(18, 18, 18, 0.4) 0%,
+      rgba(18, 18, 18, 0) 50%
+    ),
+    linear-gradient(170deg, rgb(0, 0, 0) 0%, rgba(18, 18, 18, 0) 50%),
+    linear-gradient(180deg, rgba(18, 18, 18, 0.2) 0%, rgba(18, 18, 18, 0) 50%),
+    linear-gradient(220deg, rgba(18, 18, 18, 0.2) 0%, rgba(18, 18, 18, 0) 50%);
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  height: 391px;
+}
+
+.gradientBotton {
+  background: linear-gradient(
+      360deg,
+      rgba(18, 18, 18, 0.4) 0%,
+      rgba(18, 18, 18, 0) 50%
+    ),
+    linear-gradient(50deg, rgb(0, 0, 0) 0%, rgba(18, 18, 18, 0) 50%),
+    linear-gradient(310deg, rgba(18, 18, 18, 0.2) 0%, rgba(18, 18, 18, 0) 50%),
+    linear-gradient(180deg, rgba(18, 18, 18, 0.2) 0%, rgba(18, 18, 18, 0) 50%);
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+header {
+  padding: 33px 0 48px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+nav ul li a {
+  padding: 7px 12px 9px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 20%);
+}
+
+main{
+  display: flex;
+  
+}
